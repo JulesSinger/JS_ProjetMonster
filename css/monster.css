@@ -1,0 +1,96 @@
+body{
+    font-family: 'Abel' ;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    font-size: 3em;
+    background-color: coral;
+    border: 1px solid black;
+    padding: 20px 30px;
+}
+
+
+
+#subtitle{
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2em;
+}
+
+#lifeState{
+    background-color: gainsboro;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+#firstP{
+    padding-left : 50px;
+}
+#lastP{
+    padding-right : 50px;
+}
+
+.monster {
+    margin-left: 93%;
+    display: inline-block;
+    vertical-align: top;
+    height: 100px;
+}
+
+#monster {
+    font-size: 1.3em;
+    text-align: center;
+    border-radius: 10px;
+    width: 100px;
+    transition: all 1.5s ease-in-out;
+}
+
+#actionbox {
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 10px 20px;
+    border: 1px solid grey;
+    width: 32%;
+    margin: 30px 33% 30px 33%;
+    overflow: auto; 
+    font-size: 1.2em;
+    height: 150px;
+}
+
+#actionbox > p {
+    margin: 0 ;
+}
+
+ul#status {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width :auto;
+    margin: 10px 33% 10px 40%;
+    padding: 0;
+    font-size: 2em;
+}
+
+ul#status li {
+    margin-left : 20px;
+}
+
+button {
+    width: 100px;
+    height: 55px;
+    margin-right: 30px;
+    background-color: deepskyblue;
+    border: 0;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: dodgerblue;
+}
